@@ -50,13 +50,13 @@ const links = {
           <h2 class="h2">Redes sociais</h2>
           <div class="list-links">
             <a :href="links.instagram" target="_blank" rel="noopener noreferrer">
-              <img alt="Instagram" src="https://cdn-icons-png.flaticon.com/512/174/174855.png"/>
+              <img alt="Instagram" src="https://cdn-icons-png.flaticon.com/512/4138/4138124.png"/>
             </a>
             <a :href="links.tiktok" target="_blank" rel="noopener noreferrer">
-              <img alt="TikTok" src="https://cdn-icons-png.flaticon.com/512/3116/3116491.png"/>
+              <img alt="TikTok" src="https://cdn-icons-png.flaticon.com/512/4782/4782345.png"/>
             </a>
             <a :href="links.youtube" target="_blank" rel="noopener noreferrer">
-              <img alt="YouTube" src="https://cdn-icons-png.flaticon.com/512/3670/3670209.png"/>
+              <img alt="YouTube" src="https://cdn-icons-png.flaticon.com/512/3128/3128307.png"/>
             </a>
           </div>
           <p class="p muted" style="margin-top:10px;">
