@@ -30,8 +30,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .output/public
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
 
   deploy:
     runs-on: ubuntu-latest
