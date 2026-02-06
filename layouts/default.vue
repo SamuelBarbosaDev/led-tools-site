@@ -3,8 +3,8 @@
     <header class="nav">
       <div class="container nav__inner">
         <NuxtLink class="nav__logo" to="/">
-          <span class="nav__dot"></span>
-          <span>Led Tools</span>
+          <!-- <span class="nav__dot"></span> -->
+          <img src="https://http2.mlstatic.com/D_NQ_NP_841095-MLA91336511156_092025-F.jpg" alt="Led Tools" class="nav__logo-img" />
         </NuxtLink>
 
         <nav class="nav__links">

@@ -11,12 +11,12 @@ useHead({
 
 // Você pode substituir pelos links finais exatos (se quiser).
 const links = {
-  instagram: "https://instagram.com",
-  tiktok: "https://tiktok.com",
-  youtube: "https://www.youtube.com",
-  whatsapp: "https://wa.me", // ou o link específico do Linktree depois
-  mercadolivre: "https://www.mercadolivre.com.br",
-  shopee: "https://shopee.com.br",
+  instagram: "https://instagram.com/ledtools_oficial",
+  tiktok: "https://tiktok.com/@led.tools.ltda",
+  youtube: "https://www.youtube.com/@ledtoolseledferramentas7534",
+  whatsapp: "https://api.whatsapp.com/send?phone=553131440735", // ou o link específico do Linktree depois
+  mercadolivre: "https://www.mercadolivre.com.br/loja/led-tools#from=share_eshop",
+  shopee: "https://shopee.com.br/ledtools00",
   amazon: "https://www.amazon.com.br",
 };
 </script>
@@ -33,7 +33,7 @@ const links = {
         <div class="card about-card">
           <h2 class="h2">Atendimento</h2>
           <p class="p">
-            Suporte especializado no pré e pós-venda. WhatsApp (horário comercial). :contentReference[oaicite:1]{index=1}
+            Suporte especializado no pré e pós-venda. WhatsApp (horário comercial).
           </p>
 
           <div class="cta-row">
@@ -49,12 +49,18 @@ const links = {
         <div class="card about-card">
           <h2 class="h2">Redes sociais</h2>
           <div class="list-links">
-            <a :href="links.instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a :href="links.tiktok" target="_blank" rel="noopener noreferrer">TikTok</a>
-            <a :href="links.youtube" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a :href="links.instagram" target="_blank" rel="noopener noreferrer">
+              <img alt="Instagram" src="https://cdn-icons-png.flaticon.com/512/174/174855.png"/>
+            </a>
+            <a :href="links.tiktok" target="_blank" rel="noopener noreferrer">
+              <img alt="TikTok" src="https://cdn-icons-png.flaticon.com/512/3116/3116491.png"/>
+            </a>
+            <a :href="links.youtube" target="_blank" rel="noopener noreferrer">
+              <img alt="YouTube" src="https://cdn-icons-png.flaticon.com/512/3670/3670209.png"/>
+            </a>
           </div>
           <p class="p muted" style="margin-top:10px;">
-            (Vamos substituir esses links pelos exatos do Linktree já já.) :contentReference[oaicite:2]{index=2}
+            Acompanhe nossas redes sociais para ficar por dentro dos lançamentos.
           </p>
         </div>
       </div>
@@ -62,12 +68,18 @@ const links = {
       <div class="card about-card" style="margin-top:14px;">
         <h2 class="h2">Nossas lojas</h2>
         <div class="list-links">
-          <a :href="links.mercadolivre" target="_blank" rel="noopener noreferrer">Mercado Livre</a>
-          <a :href="links.shopee" target="_blank" rel="noopener noreferrer">Shopee</a>
-          <a :href="links.amazon" target="_blank" rel="noopener noreferrer">Amazon</a>
+          <a :href="links.mercadolivre" target="_blank" rel="noopener noreferrer"> 
+            <img alt="Mercado Livre" src="https://rastrearpaquete.com.mx/wp-content/uploads/2023/03/mercadolibre-icon.png"/>
+          </a>
+          <a :href="links.shopee" target="_blank" rel="noopener noreferrer">
+            <img alt="Shopee" src="https://olist.com/_next/image/?url=https%3A%2F%2Fd3hw41hpah8tvx.cloudfront.net%2Fimages%2Fshopee_logo_0_42ddc26afe.png&w=256&q=75"/>
+          </a>
+          <a :href="links.amazon" target="_blank" rel="noopener noreferrer">
+            <img alt="Amazon" src="https://uploads.guiadoinvestidor.com.br/2024/06/LTnYZLKH-logoamazon.webp"/>
+          </a>
         </div>
         <p class="p muted" style="margin-top:10px;">
-          Sempre compre pelos canais oficiais. :contentReference[oaicite:3]{index=3}
+          Sempre compre pelos canais oficiais.
         </p>
       </div>
     </div>

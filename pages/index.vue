@@ -42,4 +42,5 @@
       </div>
     </div>
   </section>
+  <TutorialsSection />
 </template>

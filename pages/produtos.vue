@@ -1,4 +1,6 @@
 <script setup lang="ts">
+useHead({title: "Produtos | Led Tools"})
+
 const { products, categories } = useProducts();
 
 const q = ref("");
@@ -85,7 +87,7 @@ function formatBRL(n: number) {
           :href="p.url"
           target="_blank"
           rel="noopener noreferrer"
-          class="card"
+          class="card card-link"
           title="Abrir anúncio"
         >
           <img class="img" :src="p.imagem" :alt="p.nome" loading="lazy" />

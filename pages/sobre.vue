@@ -61,9 +61,6 @@ const videoId = "WeDEJ2jIp9U";
             allowfullscreen
           />
         </div>
-        <p class="p muted" style="margin-top: 10px;">
-          Dica: podemos criar uma seção de “tutoriais de montagem” também (igual no Linktree).
-        </p>
       </div>
     </div>
   </div>
