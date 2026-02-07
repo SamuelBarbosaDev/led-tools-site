@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const base = "/led-tools-site/";
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -8,11 +10,11 @@ export default defineNuxtConfig({
 
   // IMPORTANTE: GitHub Pages usa /<repo>/
   app: {
-    baseURL: "/led-tools-site/",
+    baseURL: base,
     head: {
       title: "Led Tools — Qualidade e preço justo",
       link: [
-        { rel: "icon", type: "image/x-icon", href: "favicon.ico" }
+        { rel: "icon", type: "image/x-icon", href: `${base}favicon.ico` }
       ],
       meta: [
         {
