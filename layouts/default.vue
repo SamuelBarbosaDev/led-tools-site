@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import WhatsAppFloatButton from "~/components/WhatsAppFloatButton.vue";
+</script>
+
 <template>
   <div>
     <header class="nav">
@@ -27,5 +31,6 @@
         </div>
       </div>
     </footer>
+    <WhatsAppFloatButton />
   </div>
 </template>

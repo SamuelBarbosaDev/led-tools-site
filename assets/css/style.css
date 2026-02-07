@@ -462,3 +462,46 @@ img{ max-width: 100%; display:block; }
   font-size: 14px;
 }
 .footer a{ font-weight: 800; color: var(--text); }
+
+/* -------- Whatsapp Bot -------- */
+.wa-fab{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 9999;
+
+  width: 92px;
+  height: 92px;
+
+  border-radius: 999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  background: transparent;
+  border: none;
+
+  filter: drop-shadow(0 10px 22px rgba(0,0,0,.22));
+  transition: transform .15s ease, filter .15s ease;
+}
+
+.wa-fab:hover{
+  transform: translateY(-2px) scale(1.03);
+  filter: drop-shadow(0 14px 26px rgba(0,0,0,.26));
+}
+
+.wa-fab__img{
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+  border-radius: 999px;
+}
+
+/* Mobile: um pouco menor */
+@media (max-width: 480px){
+  .wa-fab, .wa-fab__img{
+    width: 64px;
+    height: 64px;
+  }
+}
+

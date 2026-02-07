@@ -29,4 +29,10 @@ export default defineNuxtConfig({
   nitro: {
     preset: "static",
   },
+  runtimeConfig: {
+    public: {
+      whatsappPhone: "553131440735",
+      whatsappText: "Olá! Preciso de ajuda com meu produto.",
+    },
+  },
 })
