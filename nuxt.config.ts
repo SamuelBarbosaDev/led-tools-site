@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     head: {
       title: "Led Tools — Qualidade e preço justo",
       link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+        { rel: "icon", type: "image/x-icon", href: "favicon.ico" }
       ],
       meta: [
         {
