@@ -96,10 +96,12 @@ function formatBRL(n: number) {
             <div class="cat">{{ p.categoria }}</div>
             <div class="name">{{ p.nome }}</div>
 
+            /*
             <div class="row">
               <div class="price">{{ formatBRL(p.precoNumber) }}</div>
               <div class="tag">Ver anúncio</div>
             </div>
+            */
           </div>
         </a>
       </div>
