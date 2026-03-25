@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-const base = "ledtools.com.br";
+const base = "ledtools.com.br/";
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
