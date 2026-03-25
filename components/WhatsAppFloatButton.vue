@@ -6,7 +6,7 @@ const text = config.public.whatsappText as string;
 
 const href = computed(() => {
   const msg = encodeURIComponent(text || "");
-  return `https://wa.me/${phone}?text=${msg}`;
+  return `https://linktr.ee/LEDTOOLS`; /*`https://wa.me/${phone}?text=${msg}`;*/
 });
 </script>
 
