@@ -14,8 +14,7 @@ const links = {
   instagram: "https://instagram.com/ledtools_oficial",
   tiktok: "https://tiktok.com/@led.tools.ltda",
   youtube: "https://www.youtube.com/@ledtoolseledferramentas7534",
-  whatsapp: "https://api.whatsapp.com/send?phone=5531973592842", // ou o link específico do Linktree depois
-  whatsapp_home: "https://api.whatsapp.com/send?phone=5531973592848",
+  whatsapp: "https://api.whatsapp.com/send?phone=5531973592848",
   mercadolivre: "https://www.mercadolivre.com.br/loja/led-tools#from=share_eshop",
   shopee: "https://shopee.com.br/ledtools00",
   amazon: "https://www.amazon.com.br",
@@ -39,10 +38,7 @@ const links = {
 
           <div class="cta-row">
             <a class="btn btn--primary" :href="links.whatsapp" target="_blank" rel="noopener noreferrer">
-              WhatsApp - Led Tools
-            </a>
-            <a class="btn btn--primary" :href="links.whatsapp_home" target="_blank" rel="noopener noreferrer">
-              WhatsApp - Home House
+              WhatsApp
             </a>
             <a class="btn" :href="links.youtube" target="_blank" rel="noopener noreferrer">
               Ver tutoriais no YouTube
